@@ -7,6 +7,8 @@ Investigation Lab files are for an automation playbook that has several flowchar
 
 ## Log File Hashes
 Log File Hashes files are for an input playbook (child to Investigation Lab) that immediately compares the hash of the downloaded file to a list of known hashes to see if it is a known file and whether it is malicious or not before continuing through the lab automate playbook.
+![Log File Hashes Visual Playback Editor](LogFileHashes.png)
 
 ## Event Escalation
 Event Escalation files are for an input playbook (child to Investigation Lab) that takes info in response to a call for escalation on an event at the bottom of the automation in response to a prompt to security engineers on whether it needs escalation.
+![Event Escalation Visual Playback Edirot](EventEscalation.png)
