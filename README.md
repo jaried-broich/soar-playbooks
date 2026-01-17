@@ -6,7 +6,7 @@ Splunk SOAR playbooks - made for portfolio purposes and proof of concept/work - 
 Investigation Lab files are for an automation playbook that has several flowchart steps in response to a HTPP File download event detection including comparing the files hash to known hashes, investigating the file itself using VirusTotal, checking the files source location and domain reputability. An additional filter checks to see if the source country is in a banned countries list. Depending on the data discovered, the playbook itself will then lower the events priority and assign it to a team for review, escalate the event for immediate review, or close it.
 ![Investigation Lab Visual Playback Editor](Projects/File_Downloaded_by_HTTP/Automation_Playbook/InvestigationLab.png)
 
-### Inpute Playbooks
+### Input Playbooks
 #### Log File Hashes
 Log File Hashes files are for an input playbook (child to Investigation Lab) that immediately compares the hash of the downloaded file to a list of known hashes to see if it is a known file and whether it is malicious or not before continuing through the lab automate playbook.
 ![Log File Hashes Visual Playback Editor](Projects/File_Downloaded_by_HTTP/Input_Playbooks/Log_File_Hashes/LogFileHashes.png)
